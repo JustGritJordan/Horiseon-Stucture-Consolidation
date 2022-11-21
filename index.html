@@ -11,7 +11,7 @@ WHEN I view the title element
 THEN I find a concise, descriptive title-->
 
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us"> 
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -20,38 +20,40 @@ THEN I find a concise, descriptive title-->
 
   <body>
     <header class="header">
-      <h1>Hori<span class="seo">seo</span>n</h1>
-      <div>
-        <ul>
-          <li>
-            <a href="#search-engine-optimization">Search Engine Optimization</a>
-          </li>
-          <li>
-            <a href="#online-reputation-management"
-              >Online Reputation Management</a
-            >
-          </li>
-          <li>
-            <a href="#social-media-marketing">Social Media Marketing</a>
-          </li>
-        </ul>
-      </div>
+      <nav>
+        <h1>Hori<span class="seo">seo</span>n</h1>
+
+        <div>
+          <ul>
+            <li>
+              <a href="#search-engine-optimization"
+                >Search Engine Optimization</a
+              >
+            </li>
+            <li>
+              <a href="#online-reputation-management"
+                >Online Reputation Management</a
+              >
+            </li>
+            <li>
+              <a href="#social-media-marketing">Social Media Marketing</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-    <section>
-    <div class="hero"></div>
+    <main>
+      <div class="hero"></div>
       <div class="content">
-      </section>
-
-
-        <main>
-          <!-- search-engine-optimazation -->
+        <setion>
         <div class="search-engine-optimization">
+          <article>
           <img
             src="./assets/images/search-engine-optimization.jpg"
             class="float-left"
             alt="a notebook, a laptop, a coffee cup and crayons on a table"
-          />
+            />
           <h2>Search Engine Optimization</h2>
           <p>
             The dominance of mobile internet use means that users are searching
@@ -60,7 +62,9 @@ THEN I find a concise, descriptive title-->
             your visibility and find the right customers for your business.
           </p>
         </div>
-        <!-- online-reputation -->
+      </section>
+
+      <section>
         <div
           id="online-reputation-management"
           class="online-reputation-management"
@@ -78,8 +82,10 @@ THEN I find a concise, descriptive title-->
             search for your business.
           </p>
         </div>
-        <!-- social-media-marketing -->
-        <div id="social-media-marketing" class="social-media-marketing">
+      </section>
+      
+      <section>
+      <div id="social-media-marketing" class="social-media-marketing">
           <img
             src="./assets/images/social-media-marketing.jpg"
             class="float-left"
@@ -93,8 +99,9 @@ THEN I find a concise, descriptive title-->
           </p>
         </div>
       </div>
-    <!-- -benefits "aside" -->
-      <div class="benefits">
+    </section>
+      
+    <div class="benefits">
         <div class="benefit-lead">
           <h3>Lead Generation</h3>
           <img src="./assets/images/lead-generation.png" />
@@ -120,13 +127,14 @@ THEN I find a concise, descriptive title-->
           </p>
         </div>
       </div>
-    
-    </main>
+     </main>
 
+    <footer>
     <div class="footer">
       <h2>Made with ❤️️ by Horiseon</h2>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
     </div>
+</footer>
   </body>
 </html>
 <!-- Shortcut for commments is vs code is Ctrl +/ -->
