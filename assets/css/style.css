@@ -1,3 +1,4 @@
+/* reorder css source code to match html order of code */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,7 +8,7 @@
 body {
   background-color: #d9dcd6;
 }
-
+/* header and navigation tags */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -39,7 +40,7 @@ body {
   display: inline-block;
   margin-left: 25px;
 }
-
+/* navigation bar text color */
 a {
   color: #ffffff;
   text-decoration: none;
@@ -59,7 +60,7 @@ a {
   display: inline-block;
   margin-left: 20px;
 }
-
+/* main sections in body on webpage */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -97,7 +98,7 @@ p {
   float: right;
   margin-left: 25px;
 }
-
+/* aside benefits section */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -129,7 +130,7 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
-
+/* footer section */
 .footer {
   padding: 30px;
   clear: both;
